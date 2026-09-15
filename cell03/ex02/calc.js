@@ -24,7 +24,6 @@ function isPositiveInteger(value) {
     return true;
 }
 
-/* คำนวณตามเครื่องหมายที่เลือกใน select */
 function compute(left, operator, right) {
     if (operator === "+") {
         return left + right;
@@ -42,7 +41,7 @@ function compute(left, operator, right) {
 }
 
 function onSubmit(event) {
-    /* กันไม่ให้ form รีโหลดหน้า */
+
     event.preventDefault();
 
     var leftValue = leftInput.value;
