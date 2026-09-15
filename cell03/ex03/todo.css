@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f1f2f6;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#new-btn {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#ft_list {
+    max-width: 400px;
+}
+
+.todo {
+    margin-bottom: 10px;
+    padding: 12px 16px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+.todo:hover {
+    background-color: #ffe0e0;
+}
