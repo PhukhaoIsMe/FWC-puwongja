@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f2f6;
+}
+
+.card {
+    width: 280px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.info-table {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.info-table td {
+    border: none;
+    padding: 8px;
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.login {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    color: gray;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+}
+
+.contact-btn {
+    padding: 10px 30px;
+    background-color: #1a1a2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

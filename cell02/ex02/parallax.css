@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-1 {
+    background-image: url("https://images.unsplash.com/photo-1717183203121-bf3bf8117f67");
+}
+
+.parallax-2 {
+    background-image: url("https://images.unsplash.com/photo-1639162147585-60019ada4361");
+}
+
+.black-block {
+    height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    padding: 20px 40px;
+}
