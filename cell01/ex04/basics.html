@@ -1,32 +1,70 @@
-<!DOCTYPE html> <html lang="en"> <head>
-    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Basics</title> <style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <style>
         body {
-            background-color: pink; margin: 0; padding: 20px; font-family: Arial, sans-serif;
-        } h1 {
-            color: white; text-align: center; font-size: 60px;
-        } .shops {
-            display: flex; justify-content: center; gap: 40px;
-        } .shop {
-            text-align: center;
-        } .shop img {
-            width: 250px; height: auto;
-        } hr {
-            width: 100%; border: 1px solid black; margin: 30px 0;
-        } .copyright {
-            text-align: right; font-style: italic; font-family: monospace;
+            background-color: pink;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
         }
-    </style> </head> <body> <h1>&spades; Accessories &spades;</h1> <div class="shops">
+
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }
+
+        .shops {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .shop {
+            text-align: center;
+        }
+
+        .shop img {
+            width: 250px;
+            height: auto;
+        }
+
+        hr {
+            width: 100%;
+            border: 1px solid black;
+            margin: 30px 0;
+        }
+
+        .copyright {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>&spades; Accessories &spades;</h1>
+
+    <div class="shops">
         <div class="shop">
-            <img src="https://m.media-amazon.com/images/I/51XssOrMHdL._AC_SL1200_.jpg" alt="Amazon - 
-AirPods Max">
-            <br> <a 
-            href="https://www.amazon.com/Apple-AirPods-Max-Starlight-Renewed/dp/B0DJMDTBTW/ref=sr_1_1?crid=1TA3UBHACTB1S&dib=eyJ2IjoiMSJ9._EGV-Ae9Yw5LCbSGKuct2QUUL7aT9fWgmUk9BPCr3o39klGn5Q0yrDj2m7fPP7a8ifoVEv-T4plD8-1GvqGCzV0B6kyZ2d_7T6l5PyjcLf2jkP4jGh4PbbmbSdzDALOVQp-R2u5pqYbVilTfEyvX76EFGB4SRZFLWAvxCvTpwxNq78y3etdc-t2nMV001SjFwJ8kIET_E4A-thKFBeiXtC7_ELDjMjLfViZScwN_hug.vChKhoULfxQmNESP-Y0nQIwzCMnyZuEkYKvLLqBRUA8&dib_tag=se&keywords=airpods%2Bmax2&qid=1789452121&sprefix=airpods%2Bmax3%2Caps%2C500&sr=8-1&th=1">Amazon</a>
-        </div> <div class="shop">
-            <img src="https://i.ebayimg.com/images/g/JvMAAeSwEo9pS0tc/s-l1600.webp" alt="eBay - 
-Hasselblad camera">
-            <br> <a 
-            href="https://www.ebay.com/itm/317691726030?_skw=hasselblad&itmmeta=01M2HSVY6KAX3PM2SW1CNRFS71&hash=item49f7e708ce:g:JvMAAeSwEo9pS0tc&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBqg13sWSs4ZwfvSfDkbaWktX7tUPXaWIvY%2F8kWoMXxkaKUR1aDz05nLBI9OuwA2yNuVrEVhClC%2Fi5nMMOqOntnn%2BXEm5t36UwblgHv8IKSvtX5IlHXnsTyU6X%2BMNJXLWP6rVNUcuU4qBap6DicRIT41prugL0yV5y%2F0mb0A7%2BfD8eEHTHzbJhohk7UH1uu7%2Fbep39DEkK7zOg%2FlJQv1HzcA4qssQI8pVWGWfM8C8DoLlkCZCM8VvbNOqdQdN1NXjaIoeFshZOaxDQBzTB0VQjOLfdqZDgTfl7sYcgcNrePOA%3D%3D%7Ctkp%3ABk9SR8Lj77mUaA">eBay</a>
+            <img src="https://m.media-amazon.com/images/I/51XssOrMHdL._AC_SL1200_.jpg" alt="Amazon - AirPods Max">
+            <br>
+            <a href="https://www.amazon.com/Apple-AirPods-Max-Starlight-Renewed/dp/B0DJMDTBTW/ref=sr_1_1?crid=1TA3UBHACTB1S&dib=eyJ2IjoiMSJ9._EGV-Ae9Yw5LCbSGKuct2QUUL7aT9fWgmUk9BPCr3o39klGn5Q0yrDj2m7fPP7a8ifoVEv-T4plD8-1GvqGCzV0B6kyZ2d_7T6l5PyjcLf2jkP4jGh4PbbmbSdzDALOVQp-R2u5pqYbVilTfEyvX76EFGB4SRZFLWAvxCvTpwxNq78y3etdc-t2nMV001SjFwJ8kIET_E4A-thKFBeiXtC7_ELDjMjLfViZScwN_hug.vChKhoULfxQmNESP-Y0nQIwzCMnyZuEkYKvLLqBRUA8&dib_tag=se&keywords=airpods%2Bmax2&qid=1789452121&sprefix=airpods%2Bmax3%2Caps%2C500&sr=8-1&th=1">Amazon</a>
         </div>
-    </div> <hr> <p class="copyright">&copy; puwongja 2026</p> </body>
+
+        <div class="shop">
+            <img src="https://i.ebayimg.com/images/g/JvMAAeSwEo9pS0tc/s-l1600.webp" alt="eBay - Hasselblad camera">
+            <br>
+            <a href="https://www.ebay.com/itm/317691726030?_skw=hasselblad&itmmeta=01M2HSVY6KAX3PM2SW1CNRFS71&hash=item49f7e708ce:g:JvMAAeSwEo9pS0tc&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBqg13sWSs4ZwfvSfDkbaWktX7tUPXaWIvY%2F8kWoMXxkaKUR1aDz05nLBI9OuwA2yNuVrEVhClC%2Fi5nMMOqOntnn%2BXEm5t36UwblgHv8IKSvtX5IlHXnsTyU6X%2BMNJXLWP6rVNUcuU4qBap6DicRIT41prugL0yV5y%2F0mb0A7%2BfD8eEHTHzbJhohk7UH1uu7%2Fbep39DEkK7zOg%2FlJQv1HzcA4qssQI8pVWGWfM8C8DoLlkCZCM8VvbNOqdQdN1NXjaIoeFshZOaxDQBzTB0VQjOLfdqZDgTfl7sYcgcNrePOA%3D%3D%7Ctkp%3ABk9SR8Lj77mUaA">eBay</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <p class="copyright">&copy; puwongja 2026</p>
+</body>
 </html>
